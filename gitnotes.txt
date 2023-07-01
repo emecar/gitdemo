@@ -38,6 +38,7 @@ When not wanting to affect the main repository, you can fork out a branch and wo
 	git push -u origin dev
 5. Review changes and merge in github GUI - multiple clicks required.
 6. Delete Branch after merging and if branch is no longer needed
+end
 	
 
 
