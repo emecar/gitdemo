@@ -18,6 +18,11 @@
 	git remote add origin https://github.com/emecar/gitdemo.git
 10. Push committed codes in local repository to remote repository (-u stands for upsteream)
 	git push -u origin main
+
+Notes // Anytime you want to update file, 
+	save file, 
+	git add *, 
+	git commit -m "test"
 	
 
 
