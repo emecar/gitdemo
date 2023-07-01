@@ -34,6 +34,10 @@ When not wanting to affect the main repository, you can fork out a branch and wo
 	git commit -m "text"
 3. change the name of the local branch to "dev"
 	git branch -M dev
+4. Push to remote dev repository
+	git push -u origin dev
+5. Review changes and merge in github GUI - multiple clicks required.
+6. Delete Branch after merging and if branch is no longer needed
 	
 
 
