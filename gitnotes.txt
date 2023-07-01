@@ -1,0 +1,14 @@
+1. Login to github
+2. Generate Token
+	Settings > Developer Settings > repo
+		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
+3. Create Github Repository from GUI
+4. Create a Locat git repository - ~/Documents/Software Development/gitdemo
+	git init
+5. Create your files 
+	echo "# gitdemo" >> README.md
+6. Add files to staging area
+	git add README.md   #staging area addition
+	git add gitnotes.txt   #staging area addition
+7. Commit file changes to local repository
+	git commit -m "first commit"
