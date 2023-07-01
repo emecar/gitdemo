@@ -38,7 +38,16 @@ When not wanting to affect the main repository, you can fork out a branch and wo
 	git push -u origin dev
 5. Review changes and merge in github GUI - multiple clicks required.
 6. Delete Branch after merging and if branch is no longer needed
+
 end
+
+After deleting branch i got error  
+	 ! [rejected]        main -> main (non-fast-forward)
+	error: failed to push some refs to 'https://github.com/emecar/gitdemo.git'
+	hint: Updates were rejected because the tip of your current branch is behind
+To resolve
+==============
+git push -f origin main
 	
 
 
