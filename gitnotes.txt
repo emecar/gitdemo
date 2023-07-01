@@ -12,3 +12,12 @@
 	git add gitnotes.txt   #staging area addition
 7. Commit file changes to local repository
 	git commit -m "first commit"
+8. Optionally change the name of the local branch to "main"
+	git branch -M main
+9. Link local repository with remote repository, as origin, central repository for this project.
+	git remote add origin https://github.com/emecar/gitdemo.git
+10. Push committed codes in local repository to remote repository (-u stands for upsteream)
+	git push -u origin main
+	
+
+
