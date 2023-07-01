@@ -1,4 +1,8 @@
+def spec_hello(yourname):
+    print("Hello", yourname)
+    
+
 def hello():
-    print ("Hello World")
+    spec_hello("Vera")
     
 hello()

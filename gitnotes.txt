@@ -20,9 +20,20 @@
 	git push -u origin main
 
 Notes // Anytime you want to update file, 
-	save file, 
-	git add *, 
-	git commit -m "test"
+	save file
+	git add . 
+	git commit -m "text"
+	
+===Branching================
+When not wanting to affect the main repository, you can fork out a branch and work from there. After you are done you can merge. This allows multiple work on same code base without affecting each other.
+
+1. Create Branch on github GUI called "dev"
+2. Make some file changes and then:
+	save file
+	git add . 
+	git commit -m "text"
+3. change the name of the local branch to "dev"
+	git branch -M dev
 	
 
 
